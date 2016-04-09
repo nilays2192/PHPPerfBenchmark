@@ -1,0 +1,8 @@
+$value=array("abc","pqr","xyz");
+$name="name";
+$valueAry = array();
+$name1=explode("]", $name);
+$valueAry=array_fill_keys($name1,$value);
+
+
+//please do not include any print echo statements here.

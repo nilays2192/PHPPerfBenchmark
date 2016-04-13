@@ -111,7 +111,7 @@ public class piechart3d {
             document.addProducer();
             // document.addCreator(getClass().getName());
             document.addTitle("PHP Performance testing results");
-            document.addKeywords("pdf, itext, Java, open source, http");
+            document.addKeywords("pdf, PHP performance, microsec, open source, PHP Performance Benchmark");
             document.setPageSize(PageSize.A4);
 
             document.open();
@@ -119,6 +119,7 @@ public class piechart3d {
             document.add(new Paragraph("The results for code snippet is below:"));
             document.add(new Paragraph(PHPcode));
             document.add(new Paragraph("Created on " + new Date()));
+            document.add(new Paragraph("To know more: https://github.com/nilays2192/PHPPerfBenchmark"));
             PdfContentByte contentByte = writer.getDirectContent();
             PdfTemplate template = contentByte.createTemplate(width, height);
             // Graphics2D graphics2d = template.createGraphics(width, height,

@@ -119,7 +119,7 @@ public class piechart3d {
             document.add(new Paragraph("The results for code snippet is below:"));
             document.add(new Paragraph(PHPcode));
             document.add(new Paragraph("Created on " + new Date()));
-            document.add(new Paragraph("To know more: https://github.com/nilays2192/PHPPerfBenchmark"));
+            document.add(new Paragraph("To know more: https://github.com/nilays2192/PHPPerfBenchmark/"));
             PdfContentByte contentByte = writer.getDirectContent();
             PdfTemplate template = contentByte.createTemplate(width, height);
             // Graphics2D graphics2d = template.createGraphics(width, height,

@@ -54,7 +54,7 @@ public class PHPPerformanceBenchmark {
         String ResultPath = config.PATH + "results/";
         piechart3d pdf = new piechart3d();
         for (int i = 0; i < config.num; i++) {
-            String temp = filename + config.versions[i];
+            String temp = filename + "_" +config.versions[i];
             pdf.piechart(ResultPath + temp + ".txt", ResultPath + "PDFfiles/" + temp + ".pdf");
             System.out.println(ResultPath + "PDFfiles/" + temp + ".pdf is generated successfully!");
         }

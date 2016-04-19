@@ -5,7 +5,6 @@
 package piechart;
 
 import com.itextpdf.text.Document;
-import com.itextpdf.text.DocumentException;
 import com.itextpdf.text.PageSize;
 import com.itextpdf.text.Paragraph;
 import com.itextpdf.text.pdf.PdfContentByte;
@@ -15,7 +14,6 @@ import config.config;
 import java.awt.Graphics2D;
 import java.awt.geom.Rectangle2D;
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.text.AttributedString;

@@ -25,8 +25,10 @@ Path array points to location of PHP versions path. And versions array points to
 
 ###Note:
 How many PHP versions considered during analysis process is defined in ‘num’ integer variable. 
+### Execute performance evaluation:
+Code.txt file contains the PHP code snippet which you want to use for analysis purpose. Do not include any scripting tags (example: <?php, <? Etc.). Once required code has been added to mentioned file, execute PHPPerformanceBenchmark.java to generate results in terms of execution time.
 ###Results:
-Previous execution results is placed in PHPPerfBenchmark/src/phpperformancebenchmark/results/PDFfiles/ 
+All the execution results will be stored in PHPPerfBenchmark/src/phpperformancebenchmark/results/PDFfiles/ 
 
 
 
